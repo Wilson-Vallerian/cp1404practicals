@@ -23,6 +23,7 @@ def main():
 
 
 def determine_car():
+    """Get car details."""
     car_name = input("Enter Car Name: ")
     car_fuel = int(input("Enter Car Fuel: "))
     car = Car(car_fuel, car_name)
