@@ -48,6 +48,3 @@ class PointerArithmetic:
 
     def __str__(self):
         return f"Pointer Arithmetic = {self.pointer_arithmetic}"
-
-    # def is_pointer_arithmetic(self):
-    #     return self.pointer_arithmetic == "Yes"

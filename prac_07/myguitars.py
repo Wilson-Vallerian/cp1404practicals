@@ -6,17 +6,6 @@ def main():
     FILENAME = "guitars.csv"
     guitars = []
 
-    # from operator import attrgetter
-    # in_file = open(FILENAME, "r")
-    # for line in in_file:
-    #     parts = line.strip().split(",")
-    #     guitar = Guitar(parts[0], int(parts[1]), float(parts[2]))
-    #     guitars.append(guitar)
-    # guitars.sort(key=attrgetter("year"))
-    # for guitar in guitars:
-    #     print(guitar)
-    # in_file.close()
-
     print("Add new guitar")
     name = input("Name: ")
     year = int(input("Year: "))
